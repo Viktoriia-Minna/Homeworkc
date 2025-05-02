@@ -35,3 +35,39 @@
       </table>
 </body>
 </html>
+div h3:nth-child(1) {
+color: rgb(255, 0, 217);
+}
+
+#greycol  {
+  color: rgb(194, 194, 194);
+}
+p:nth-child(1) {
+  color: rgb(255, 0, 0);
+}
+p:nth-last-child(2) {
+  color: rgb(30, 255, 0);
+}
+.yellow {
+  color: rgb(255, 255, 0);
+}
+
+
+
+
+td:nth-child(1) {
+  color: rgb(255, 255, 255);
+  background-color: rgb(217, 184, 248);
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+td:nth-child(2) {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(233, 192, 231);
+  text-align: center;
+}
